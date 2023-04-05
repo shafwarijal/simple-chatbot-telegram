@@ -31,7 +31,7 @@
                 "context_set": ""
                 },
                 {"tag": "menu",
-                "patterns": ["Menyediakan menu apa saja ?", "Daftar menu", "mnu", "Saya ingin melihat menu!", "Menu"],
+                "patterns": ["Menyediakan menu apa saja ?", "Daftar menu", "mnu", "Saya ingin melihat menu!", "Menu", "Menu apa saja?"],
                 "responses": ["Kami menyediakan menu yang terdiri dari makanan, minuman, dan paket.\nUntuk melihat lebih detail silahkan ketik makanan/minuman/paket."],
                 "context_set": ""
                 },
