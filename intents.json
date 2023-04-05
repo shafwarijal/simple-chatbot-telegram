@@ -1,0 +1,313 @@
+{
+        "intents": [
+                {"tag": "start",
+                "patterns": ["/start"],
+                "responses": ["Selamat datang. Silahkan mulai komunikasi"],
+                "context_set": ""
+                },
+                {"tag": "salam",
+                "patterns": ["Hii", "Hai", "Hi", "Hey", "Halo", "Bot", "Selamat pagi", "Selamat sore", "Selamat malam", "Hallo moenbot", "Hello", "Mulai"],
+                "responses": ["Hai, Terimakasih sudah berkunjung dan menyapa. Ada yang bisa saya bantu?", "Hallo, ada yang bisa saya bantu?", "Selamat datang di Ayam Geprek Moen Moen, kamu ingin beli apa?"],
+                "context_set": ""
+                },
+                {"tag": "salam2",
+                "patterns": ["Assalamualaikum Warahmatullahi Wabarakatuh", "Assalamualaikum","Salam"],
+                "responses": ["Waalaikumsalam warahmatullahi wabarakatuh, ada yang bisa saya bantu?"],
+                "context_set": ""
+                },
+                {"tag": "alamat",
+                "patterns": ["Alamat Ayam Geprek Moen Moen", "Alamat", "Almt", "Alamt", "Almat", "Alamatnya", "lokasi", "tempat"],
+                "responses": ["Jalan Hm.Tohir RT.02/01 NO.26 Pondok Cina Depok"],
+                "context_set": ""
+                },
+                {"tag": "kontak",
+                "patterns": ["Kontak Ayam Geprek Moen Moen", "Kontak", "No hp", "Kntak", "Kontk", "Kontaknya"],
+                "responses": ["0838-1998-6166"],
+                "context_set": ""
+                },
+                {"tag": "jam",
+                "patterns": ["Jam operasional Ayam Geprek Moen Moen", "Buka jam", "Tutup jam", "Jam", "Jamnya"],
+                "responses": ["Buka dari Senin - Jum'at = jam 12 pm - 9 pm.\nSabtu dan Minggu TUTUP"],
+                "context_set": ""
+                },
+                {"tag": "menu",
+                "patterns": ["Menyediakan menu apa saja ?", "Daftar menu", "mnu", "Saya ingin melihat menu!", "Menu"],
+                "responses": ["Kami menyediakan menu yang terdiri dari makanan, minuman, dan paket.\nUntuk melihat lebih detail silahkan ketik makanan/minuman/paket."],
+                "context_set": ""
+                },
+                {"tag": "makanan",
+                "patterns": ["Makanan", "Maknn", "Mknn", "Makan", "Mkn", "Mknan", "Mkanan", "Makann"],
+                "responses": ["Daftar Menu\n\n~Makanan~\nAyam geprek + nasi = Rp. 12.000\nAyam bakar + nasi = Rp. 12.000\nAyam goreng + nasi = Rp. 12.000\nAyam bakar madu + nasi = Rp. 15.000\nAyam + nasi + indomie goreng = Rp. 17.000\nAyam geprek/goreng/bakar = Rp. 9.000\nIndomie goreng/rebus = Rp. 6.000\n\n~Toping~\nTahu/Tempe = Rp. 1.000\nKornet/Telor = Rp. 4.000\nBakso/Sosis = Rp. 3.000\n"],
+                "context_set": ""
+                },
+                {"tag": "minuman",
+                "patterns": ["Minuman", "Minum", "Minm", "Minmn", "Minman"],
+                "responses": ["Daftar Menu\n\n~Minuman~\nTeh manis panas/dingin = Rp. 3.000\nJeruk panas/dingin = Rp. 5.000\nKopi hitam = Rp. 3.000\nKopi luwak/indocafe panas = Rp. 3.000\nKopi luwak/indocafe dingin = Rp. 4.000\nNutrisari panas/dingin = Rp. 3.000\nEs susu putih/coklat = Rp. 5.000"],
+                "context_set": ""
+                },
+                {"tag": "paket",
+                "patterns": ["Paket", "Pket", "Pakt", "Pkt"],
+                "responses": ["Daftar Menu\n\n~Paket~\nPaket 1 : Ayam Bakar pot.8 + Nasi Box + Tahu + Tempe + Pisang = Rp. 19.000\nPaket 2 : Ayam Padang + Nasi Box + Tahu + Tempe + Pisang = Rp. 23.000"],
+                "context_set": ""
+                },
+                {"tag": "cara",
+                "patterns": ["Bagaimana cara pesan?", "Memesan", "Cara memesan?", "cara pesan"],
+                "responses": ["Ketik 'Pesan' untuk memulai proses pesan", "Untuk melakukan pemesanan, anda bisa ketika 'Pesan' untuk memulai"],
+                "context_set": ""
+                },
+                {"tag": "pesan",
+                "patterns": ["Pesan"],
+                "responses": ["Silahkan pesan : (Ketikan menu yang dipesan)\n\nMisalkan : Ayam bakar + nasi atau Teh manis dingin"],
+                "context_set": ""
+                }
+        ],
+        "menu": [
+                {"tag": "Ayam geprek + nasi",
+                "harga": "12000"
+                },
+                {"tag": "ayam geprek + nasi",
+                "harga": "12000"
+                },
+                {"tag": "Ayam geprek nasi",
+                "harga": "12000"
+                },
+                {"tag": "ayam geprek nasi",
+                "harga": "12000"
+                },
+
+                {"tag": "Ayam bakar + nasi",
+                "harga": "12000"
+                },
+                {"tag": "ayam bakar + nasi",
+                "harga": "12000"
+                },
+                {"tag": "Ayam bakar nasi",
+                "harga": "12000"
+                },
+                {"tag": "ayam bakar nasi",
+                "harga": "12000"
+                },
+
+                {"tag": "Ayam goreng + nasi",
+                "harga": "12000"
+                },
+                {"tag": "ayam goreng + nasi",
+                "harga": "12000"
+                },
+                {"tag": "Ayam goreng nasi",
+                "harga": "12000"
+                },
+                {"tag": "ayam goreng nasi",
+                "harga": "12000"
+                },
+
+                {"tag": "Ayam bakar madu + nasi",
+                "harga": "15000"
+                },
+                {"tag": "ayam bakar madu + nasi",
+                "harga": "15000"
+                },
+                {"tag": "Ayam bakar madu nasi",
+                "harga": "15000"
+                },
+                {"tag": "ayam bakar madu nasi",
+                "harga": "15000"
+                },
+
+                {"tag": "Ayam + nasi + indomie goreng",
+                "harga": "17000"
+                },
+                {"tag": "ayam + nasi + indomie goreng",
+                "harga": "17000"
+                },
+                {"tag": "Ayam nasi indomie goreng",
+                "harga": "17000"
+                },
+                {"tag": "Ayam nasi indomie goreng",
+                "harga": "17000"
+                },
+
+                {"tag": "Ayam geprek",
+                "harga": "9000"
+                },
+                {"tag": "ayam geprek",
+                "harga": "9000"
+                },
+
+                {"tag": "Ayam bakar",
+                "harga": "9000"
+                },
+                {"tag": "ayam bakar",
+                "harga": "9000"
+                },
+
+                {"tag": "Ayam goreng",
+                "harga": "9000"
+                },
+                {"tag": "ayam goreng",
+                "harga": "9000"
+                },
+
+                {"tag": "Indomie goreng",
+                "harga": "6000"
+                },
+                {"tag": "indomie goreng",
+                "harga": "6000"
+                },
+                
+                {"tag": "Indomie rebus",
+                "harga": "6000"
+                },
+                {"tag": "indomie rebus",
+                "harga": "6000"
+                },
+
+                {"tag": "Tahu",
+                "harga": "1000"
+                },
+                {"tag": "tahu",
+                "harga": "1000"
+                },
+
+                {"tag": "Tempe",
+                "harga": "1000"
+                },
+                {"tag": "tempe",
+                "harga": "1000"
+                },
+
+                {"tag": "Kornet",
+                "harga": "4000"
+                },
+                {"tag": "kornet",
+                "harga": "4000"
+                },
+
+                {"tag": "Telor",
+                "harga": "4000"
+                },
+                {"tag": "telor",
+                "harga": "4000"
+                },
+
+                {"tag": "Bakso",
+                "harga": "3000"
+                },
+                {"tag": "bakso",
+                "harga": "3000"
+                },
+
+                {"tag": "Sosis",
+                "harga": "3000"
+                },
+                {"tag": "sosis",
+                "harga": "3000"
+                },
+
+                {"tag": "Teh manis panas",
+                "harga": "3000"
+                },
+                {"tag": "teh manis panas",
+                "harga": "3000"
+                },
+
+                {"tag": "Teh manis dingin",
+                "harga": "3000"
+                },
+                {"tag": "teh manis dingin",
+                "harga": "3000"
+                },
+
+                {"tag": "Jeruk panas",
+                "harga": "5000"
+                },
+                {"tag": "jeruk panas",
+                "harga": "5000"
+                },
+
+                {"tag": "Jeruk dingin",
+                "harga": "5000"
+                },
+                {"tag": "jeruk dingin",
+                "harga": "5000"
+                },
+
+                {"tag": "Kopi hitam",
+                "harga": "3000"
+                },
+                {"tag": "kopi hitam",
+                "harga": "3000"
+                },
+
+                {"tag": "Kopi luwak panas",
+                "harga": "3000"
+                },
+                {"tag": "kopi luwak panas",
+                "harga": "3000"
+                },
+
+                {"tag": "Kopi luwak dingin",
+                "harga": "4000"
+                },
+                {"tag": "kopi luwak dingin",
+                "harga": "4000"
+                },
+
+                {"tag": "Indocafe panas",
+                "harga": "3000"
+                },
+                {"tag": "indocafe panas",
+                "harga": "3000"
+                },
+
+                {"tag": "Indocafe dingin",
+                "harga": "4000"
+                },
+                {"tag": "indocafe dingin",
+                "harga": "4000"
+                },
+
+                {"tag": "Nutrisari panas",
+                "harga": "3000"
+                },
+                {"tag": "nutrisari panas",
+                "harga": "3000"
+                },
+
+                {"tag": "Nutrisari dingin",
+                "harga": "3000"
+                },
+                {"tag": "nutrisari dingin",
+                "harga": "3000"
+                },
+
+                {"tag": "Es susu putih",
+                "harga": "5000"
+                },
+                {"tag": "es susu putih",
+                "harga": "5000"
+                },
+
+                {"tag": "Es susu coklat",
+                "harga": "5000"
+                },
+                {"tag": "es susu coklat",
+                "harga": "5000"
+                },
+
+                {"tag": "Paket 1",
+                "harga": "19000"
+                },
+                {"tag": "paket 1",
+                "harga": "19000"
+                },
+
+                {"tag": "Paket 2",
+                "harga": "23000"
+                },
+                {"tag": "paket 2",
+                "harga": "23000"
+                }
+        
+        ]
+}
